@@ -1,7 +1,7 @@
-import React, { useEffect, useState, ChangeEvent } from 'react';
+import { useEffect, useState, ChangeEvent } from 'react';
 import './App.css';
 import CardList from "./components/card-list/card-list.componenet";
-import SearchBox from "./components/search-box/searchbox.componenet.js";
+import SearchBox from "./components/search-box/searchbox.componenet";
 
 import { getData } from './utils/fetch.utils';
 
@@ -11,7 +11,6 @@ type Monster = {
   email: string;
 }
 
-type onSearchChangeEventHandle = (e: ChangeEvent<HTMLInputElement>) => void;
 
 const App = () => {
 

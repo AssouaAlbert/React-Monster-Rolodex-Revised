@@ -1,5 +1,4 @@
 import "./card-container.css"
-
 const Card = (props) => {
         const {id,name,email}  = props;
         return (<div className="card-container">
